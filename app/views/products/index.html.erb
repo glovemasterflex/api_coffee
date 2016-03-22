@@ -1,0 +1,32 @@
+<div class='container'>
+  <a href="#add_product_form" class="btn-floating btn-large waves-effect waves-light red">Add</a>
+  <br />
+  <hr />
+
+  <h2>All Products</h2>
+  <table class='table highlight table-responsive'>
+    <thead>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Show</th>
+    </thead>
+    <tbody id='products'>
+    </tbody>
+  </table>
+  <br />
+  <hr />
+  <br />
+
+  <h3 class='center'>Add A Product</h3>
+
+  <form id='add_product_form' class='center'>
+    <label>Name</label>
+    <input placeholder='Name' name='product[name]' required />
+    <input placeholder='Description' name='product[description]' required />
+    <input class='btn btn-primary red' type='submit' />
+  </form>
+
+  <br />
+  <br />
+  <br />
+</div>
